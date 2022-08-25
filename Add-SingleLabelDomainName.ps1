@@ -1,4 +1,4 @@
-Function Add-SingleLabelDomain{
+Function Add-SingleLabelDomainRegKey {
 $IsAdmin = [Security.Principal.WindowsIdentity]::GetCurrent()
 If ((New-Object Security.Principal.WindowsPrincipal $IsAdmin).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator) -eq $FALSE) {
     "`nERROR: You are NOT a local administrator.  Run this script after logging on with a local administrator account."
@@ -42,4 +42,4 @@ Catch
  PAUSE
 }
 }
-Add-SingleLabelDomain
+Add-SingleLabelDomainRegKey
