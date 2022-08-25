@@ -1,7 +1,7 @@
 # SingleLabelDomainRegKeyFix
 Unable to Join Single Label Domain- Registry key Fix Script
 
-Run the Script on the prompt selec the approparaite command number and press enter
+Run the Script with powershell, on the question prompt select the appropriate command number and press enter
 
 Select 1 - To Create the AllowSingleLabelDnsDomain DWORD key
 Select 2 - To Change the value to 1 of the AllowSingleLabelDnsDomain DWORD key
