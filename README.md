@@ -11,10 +11,11 @@ This PowerShell script helps resolve issues when joining a domain with a **singl
 1. **Run PowerShell as Administrator**.
 2. Copy and paste the following one-liner into the PowerShell window:
 
-# run in powershell
+```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr 'https://raw.githubusercontent.com/brsvppv/SingleLabelDomainRegKeyFix/main/Add-SingleLabelDomainName.ps1' -UseBasicParsing | iex
+```
 
-📋 Script Options (When Prompted)
+### 📋 Script Options (When Prompted)
 You’ll be prompted to choose an action:
 
 1 – Create the AllowSingleLabelDnsDomain registry key
